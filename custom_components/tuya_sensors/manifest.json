@@ -4,7 +4,7 @@
   "documentation": "https://github.com/silvanfischer/tuya_sensors",
   "dependencies": [],
   "config_flow": true,
-  "codeowners": ["silvanfischer"],
+  "codeowners": ["@silvanfischer"],
   "requirements": ["tuya-connector-python"],
   "iot_class": "cloud_polling",
   "version": "0.1.0"
