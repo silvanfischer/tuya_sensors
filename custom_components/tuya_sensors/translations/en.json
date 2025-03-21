@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tuya Cloud Integration",
+        "description": "Enter your Tuya Cloud API credentials",
+        "data": {
+          "api_key": "API Key",
+          "api_secret": "API Secret",
+          "device_ids": "Device ID(s) (comma-separated)",
+          "region": "Region",
+          "scan_interval": "Update Interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid authentication credentials",
+      "cannot_connect": "Failed to connect to Tuya Cloud"
+    },
+    "abort": {
+      "already_configured": "Tuya integration already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tuya Cloud Options",
+        "description": "Configure which devices and sensors to monitor",
+        "data": {
+          "scan_interval": "Update Interval (seconds)",
+          "device_ids": "Specific Device IDs (leave empty for all)",
+          "include_sensors": "Only include these sensor types",
+          "exclude_sensors": "Exclude these sensor types"
+        }
+      }
+    }
+  }
+}
