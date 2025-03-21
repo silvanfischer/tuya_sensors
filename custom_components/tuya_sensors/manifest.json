@@ -1,11 +1,11 @@
 {
   "domain": "tuya_sensors",
   "name": "Tuya Sensors",
-  "documentation": "https://github.com/silvanfischer/tuya_sensors",
-  "dependencies": [],
-  "config_flow": true,
   "codeowners": ["@silvanfischer"],
-  "requirements": ["tuya-connector-python"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/silvanfischer/tuya_sensors",
   "iot_class": "cloud_polling",
+  "requirements": ["tuya-connector-python"],
   "version": "0.1.0"
 }
